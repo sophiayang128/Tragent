@@ -1,4 +1,5 @@
 import googlemaps
+import time
 from datetime import datetime
 
 class Place:
@@ -25,9 +26,8 @@ class Place:
                             open_now=True,
                             type=place_type
                         )
-            # print(response['results'])
         else:
-            print(page_token)
+            time.sleep(2) # Sleep to avoid too quick request
             response = self.client.places_nearby(page_token=page_token)
         self.place_list.append(response['results'])
         if 'next_page_token' in response:
@@ -39,6 +39,7 @@ class Place:
 location = (37.7896451, -122.3897223)
 p1 = Place(location)
 p1.search_place_nearby(1000, "restaurant", "")
+print(p1.place_list)
 
 
 # 1. Lat,lon, type -> []
