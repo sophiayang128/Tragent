@@ -36,7 +36,7 @@ class Place:
             return
 
 
-location = (37.7896451, -122.3897223)
+location = (37.7896451, -122.3897222)
 p1 = Place(location)
 p1.search_place_nearby(1000, "restaurant", "")
 print(p1.place_list)
