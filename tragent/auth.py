@@ -1,6 +1,6 @@
 import yaml
 
-AUTH_CONFIG_FILE = 'auth.yaml'
+AUTH_CONFIG_FILE = 'auth/auth.yaml'
 
 class Auth:
     def get_api_key():

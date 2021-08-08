@@ -1,6 +1,7 @@
 import googlemaps
 import time
 from datetime import datetime
+from auth import Auth
 
 class Place:
 
@@ -8,7 +9,7 @@ class Place:
 
 
     def __init__(self, location):
-        self.key = 'AIzaSyD6unBfajZZK3w4UavRHBt9BhEw4veoxNI'
+        self.key = Auth.get_api_key()
         self.client = googlemaps.Client(self.key)
         self.language = "en-AU"
         self.region = "AU"

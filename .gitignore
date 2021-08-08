@@ -1,2 +1,4 @@
 **/logs
 tragent/auth/auth.yaml
+**/__pycache__
+.idea
