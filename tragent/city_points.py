@@ -40,6 +40,6 @@ class CityPoints:
 		return points
 
 
-
-San = CityPoints('San Francisco')
-print(San.generate_points(0.01))
+# Example
+# San = CityPoints('San Francisco')
+# print(San.generate_points(0.01))
