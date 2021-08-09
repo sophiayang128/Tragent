@@ -1,7 +1,7 @@
 import googlemaps
 import time
-from datetime import datetime
 from auth import Auth
+from place_details import Details
 
 class Place:
 
@@ -15,11 +15,10 @@ class Place:
         self.region = "AU"
         self.rank_by = "distance"
         self.location = location
-        self.place_list = []
+        self.place_details_list = []
 
 
     def search_place_nearby(self, radius, place_type, page_token):
-        response = {}
         if page_token == "":
             response = self.client.places_nearby(
                             location=self.location,
@@ -30,7 +29,9 @@ class Place:
         else:
             time.sleep(2) # Sleep to avoid too quick request
             response = self.client.places_nearby(page_token=page_token)
-        self.place_list.append(response['results'])
+        for result in response['results']:
+            place_details = Details().get_place_details(place_id=result['place_id'])
+            self.place_details_list.append(place_details)
         if 'next_page_token' in response:
             self.search_place_nearby(radius, place_type, response['next_page_token'])
         else:
@@ -39,8 +40,8 @@ class Place:
 
 location = (37.7896451, -122.3897222)
 p1 = Place(location)
-p1.search_place_nearby(1000, "restaurant", "")
-print(p1.place_list)
+p1.search_place_nearby(200, "restaurant", "")
+print(p1.place_details_list)
 
 
 # 1. Lat,lon, type -> []
