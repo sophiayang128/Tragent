@@ -12,7 +12,7 @@ class CityPoints:
 	def get_polygon_points(self):
 		with open(f'./data/city_boundaries/{self.city}.json') as json_file:
 			data = json.load(json_file)
-			self.points = [tuple(point) for point in data['coordinates'][0]]
+			self.points = [tuple([point[1], point[0]]) for point in data['coordinates'][0]]
 			return self.points
 
 	def generate_poly(self):
@@ -42,4 +42,4 @@ class CityPoints:
 
 # Example
 # San = CityPoints('San Francisco')
-# print(San.generate_points(0.01))
+# print(len(San.generate_points(0.01)))
