@@ -19,7 +19,6 @@ class Place:
 
 
     def search_place_nearby(self, radius, place_type, page_token):
-        print(place_type)
         if page_token == "":
             response = self.client.places_nearby(
                             location=self.location,

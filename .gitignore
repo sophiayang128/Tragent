@@ -2,3 +2,4 @@
 tragent/auth/auth.yaml
 **/__pycache__
 .idea
+cloud_sql_proxy
