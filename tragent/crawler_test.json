@@ -1,0 +1,678 @@
+[
+  {
+    'business_status': 'OPERATIONAL',
+    'formatted_address': '6318 Mission St, Daly City, CA 94014, USA',
+    'formatted_phone_number': '(415) 646-6412',
+    'geometry': {
+      'location': {
+        'lat': 37.7057394,
+        'lng': -122.4621601
+      }
+    },
+    'name': 'Som Tum Cafe',
+    'opening_hours': {
+      'open_now': True,
+      'periods': [
+        {
+          'close': {
+            'day': 0,
+            'time': '2100'
+          },
+          'open': {
+            'day': 0,
+            'time': '0900'
+          }
+        },
+        {
+          'close': {
+            'day': 1,
+            'time': '2100'
+          },
+          'open': {
+            'day': 1,
+            'time': '0900'
+          }
+        },
+        {
+          'close': {
+            'day': 2,
+            'time': '2100'
+          },
+          'open': {
+            'day': 2,
+            'time': '0900'
+          }
+        },
+        {
+          'close': {
+            'day': 3,
+            'time': '2100'
+          },
+          'open': {
+            'day': 3,
+            'time': '0900'
+          }
+        },
+        {
+          'close': {
+            'day': 4,
+            'time': '2100'
+          },
+          'open': {
+            'day': 4,
+            'time': '0900'
+          }
+        },
+        {
+          'close': {
+            'day': 5,
+            'time': '2100'
+          },
+          'open': {
+            'day': 5,
+            'time': '0900'
+          }
+        },
+        {
+          'close': {
+            'day': 6,
+            'time': '2100'
+          },
+          'open': {
+            'day': 6,
+            'time': '0900'
+          }
+        }
+      ],
+      'weekday_text': [
+        'Monday: 9:00 AM – 9:00 PM',
+        'Tuesday: 9:00 AM – 9:00 PM',
+        'Wednesday: 9:00 AM – 9:00 PM',
+        'Thursday: 9:00 AM – 9:00 PM',
+        'Friday: 9:00 AM – 9:00 PM',
+        'Saturday: 9:00 AM – 9:00 PM',
+        'Sunday: 9:00 AM – 9:00 PM'
+      ]
+    },
+    'place_id': 'ChIJHU1Rxsl9j4ARBgCVGq2z9z4',
+    'rating': 4.5,
+    'user_ratings_total': 8
+  },
+  {
+    'business_status': 'OPERATIONAL',
+    'formatted_address': '6222 Mission St, Daly City, CA 94015, USA',
+    'formatted_phone_number': '(650) 991-3339',
+    'geometry': {
+      'location': {
+        'lat': 37.7066418,
+        'lng': -122.460015
+      }
+    },
+    'name': 'Round Table Pizza',
+    'opening_hours': {
+      'open_now': True,
+      'periods': [
+        {
+          'close': {
+            'day': 0,
+            'time': '2200'
+          },
+          'open': {
+            'day': 0,
+            'time': '1100'
+          }
+        },
+        {
+          'close': {
+            'day': 1,
+            'time': '2200'
+          },
+          'open': {
+            'day': 1,
+            'time': '1100'
+          }
+        },
+        {
+          'close': {
+            'day': 2,
+            'time': '2200'
+          },
+          'open': {
+            'day': 2,
+            'time': '1100'
+          }
+        },
+        {
+          'close': {
+            'day': 3,
+            'time': '2200'
+          },
+          'open': {
+            'day': 3,
+            'time': '1100'
+          }
+        },
+        {
+          'close': {
+            'day': 4,
+            'time': '2200'
+          },
+          'open': {
+            'day': 4,
+            'time': '1100'
+          }
+        },
+        {
+          'close': {
+            'day': 5,
+            'time': '2300'
+          },
+          'open': {
+            'day': 5,
+            'time': '1100'
+          }
+        },
+        {
+          'close': {
+            'day': 6,
+            'time': '2300'
+          },
+          'open': {
+            'day': 6,
+            'time': '1100'
+          }
+        }
+      ],
+      'weekday_text': [
+        'Monday: 11:00 AM – 10:00 PM',
+        'Tuesday: 11:00 AM – 10:00 PM',
+        'Wednesday: 11:00 AM – 10:00 PM',
+        'Thursday: 11:00 AM – 10:00 PM',
+        'Friday: 11:00 AM – 11:00 PM',
+        'Saturday: 11:00 AM – 11:00 PM',
+        'Sunday: 11:00 AM – 10:00 PM'
+      ]
+    },
+    'place_id': 'ChIJTZcikTx8j4ARMMRL6ZQ4XxU',
+    'rating': 3.6,
+    'user_ratings_total': 118,
+    'website': 'https://ordering.roundtablepizza.com/site/rtp584?utm_source=wisely&utm_medium=weblink&utm_campaign=584'
+  },
+  {
+    'business_status': 'OPERATIONAL',
+    'formatted_address': '6318 Mission St, Daly City, CA 94014, USA',
+    'formatted_phone_number': '(415) 646-6412',
+    'geometry': {
+      'location': {
+        'lat': 37.7057394,
+        'lng': -122.4621601
+      }
+    },
+    'name': 'Som Tum Cafe',
+    'opening_hours': {
+      'open_now': True,
+      'periods': [
+        {
+          'close': {
+            'day': 0,
+            'time': '2100'
+          },
+          'open': {
+            'day': 0,
+            'time': '0900'
+          }
+        },
+        {
+          'close': {
+            'day': 1,
+            'time': '2100'
+          },
+          'open': {
+            'day': 1,
+            'time': '0900'
+          }
+        },
+        {
+          'close': {
+            'day': 2,
+            'time': '2100'
+          },
+          'open': {
+            'day': 2,
+            'time': '0900'
+          }
+        },
+        {
+          'close': {
+            'day': 3,
+            'time': '2100'
+          },
+          'open': {
+            'day': 3,
+            'time': '0900'
+          }
+        },
+        {
+          'close': {
+            'day': 4,
+            'time': '2100'
+          },
+          'open': {
+            'day': 4,
+            'time': '0900'
+          }
+        },
+        {
+          'close': {
+            'day': 5,
+            'time': '2100'
+          },
+          'open': {
+            'day': 5,
+            'time': '0900'
+          }
+        },
+        {
+          'close': {
+            'day': 6,
+            'time': '2100'
+          },
+          'open': {
+            'day': 6,
+            'time': '0900'
+          }
+        }
+      ],
+      'weekday_text': [
+        'Monday: 9:00 AM – 9:00 PM',
+        'Tuesday: 9:00 AM – 9:00 PM',
+        'Wednesday: 9:00 AM – 9:00 PM',
+        'Thursday: 9:00 AM – 9:00 PM',
+        'Friday: 9:00 AM – 9:00 PM',
+        'Saturday: 9:00 AM – 9:00 PM',
+        'Sunday: 9:00 AM – 9:00 PM'
+      ]
+    },
+    'place_id': 'ChIJHU1Rxsl9j4ARBgCVGq2z9z4',
+    'rating': 4.5,
+    'user_ratings_total': 8
+  },
+  {
+    'business_status': 'OPERATIONAL',
+    'formatted_address': '6222 Mission St, Daly City, CA 94015, USA',
+    'formatted_phone_number': '(650) 991-3339',
+    'geometry': {
+      'location': {
+        'lat': 37.7066418,
+        'lng': -122.460015
+      }
+    },
+    'name': 'Round Table Pizza',
+    'opening_hours': {
+      'open_now': True,
+      'periods': [
+        {
+          'close': {
+            'day': 0,
+            'time': '2200'
+          },
+          'open': {
+            'day': 0,
+            'time': '1100'
+          }
+        },
+        {
+          'close': {
+            'day': 1,
+            'time': '2200'
+          },
+          'open': {
+            'day': 1,
+            'time': '1100'
+          }
+        },
+        {
+          'close': {
+            'day': 2,
+            'time': '2200'
+          },
+          'open': {
+            'day': 2,
+            'time': '1100'
+          }
+        },
+        {
+          'close': {
+            'day': 3,
+            'time': '2200'
+          },
+          'open': {
+            'day': 3,
+            'time': '1100'
+          }
+        },
+        {
+          'close': {
+            'day': 4,
+            'time': '2200'
+          },
+          'open': {
+            'day': 4,
+            'time': '1100'
+          }
+        },
+        {
+          'close': {
+            'day': 5,
+            'time': '2300'
+          },
+          'open': {
+            'day': 5,
+            'time': '1100'
+          }
+        },
+        {
+          'close': {
+            'day': 6,
+            'time': '2300'
+          },
+          'open': {
+            'day': 6,
+            'time': '1100'
+          }
+        }
+      ],
+      'weekday_text': [
+        'Monday: 11:00 AM – 10:00 PM',
+        'Tuesday: 11:00 AM – 10:00 PM',
+        'Wednesday: 11:00 AM – 10:00 PM',
+        'Thursday: 11:00 AM – 10:00 PM',
+        'Friday: 11:00 AM – 11:00 PM',
+        'Saturday: 11:00 AM – 11:00 PM',
+        'Sunday: 11:00 AM – 10:00 PM'
+      ]
+    },
+    'place_id': 'ChIJTZcikTx8j4ARMMRL6ZQ4XxU',
+    'rating': 3.6,
+    'user_ratings_total': 118,
+    'website': 'https://ordering.roundtablepizza.com/site/rtp584?utm_source=wisely&utm_medium=weblink&utm_campaign=584'
+  },
+  {
+    'business_status': 'OPERATIONAL',
+    'formatted_address': '6127 Mission St, Daly City, CA 94014, USA',
+    'formatted_phone_number': '(415) 333-3887',
+    'geometry': {
+      'location': {
+        'lat': 37.7070869,
+        'lng': -122.4572835
+      }
+    },
+    'name': 'Little Hunan Restaurant',
+    'opening_hours': {
+      'open_now': True,
+      'periods': [
+        {
+          'close': {
+            'day': 0,
+            'time': '2100'
+          },
+          'open': {
+            'day': 0,
+            'time': '1100'
+          }
+        },
+        {
+          'close': {
+            'day': 1,
+            'time': '2100'
+          },
+          'open': {
+            'day': 1,
+            'time': '1100'
+          }
+        },
+        {
+          'close': {
+            'day': 2,
+            'time': '2100'
+          },
+          'open': {
+            'day': 2,
+            'time': '1100'
+          }
+        },
+        {
+          'close': {
+            'day': 4,
+            'time': '2100'
+          },
+          'open': {
+            'day': 4,
+            'time': '1100'
+          }
+        },
+        {
+          'close': {
+            'day': 5,
+            'time': '2100'
+          },
+          'open': {
+            'day': 5,
+            'time': '1100'
+          }
+        },
+        {
+          'close': {
+            'day': 6,
+            'time': '2100'
+          },
+          'open': {
+            'day': 6,
+            'time': '1100'
+          }
+        }
+      ],
+      'weekday_text': [
+        'Monday: 11:00 AM – 9:00 PM',
+        'Tuesday: 11:00 AM – 9:00 PM',
+        'Wednesday: Closed',
+        'Thursday: 11:00 AM – 9:00 PM',
+        'Friday: 11:00 AM – 9:00 PM',
+        'Saturday: 11:00 AM – 9:00 PM',
+        'Sunday: 11:00 AM – 9:00 PM'
+      ]
+    },
+    'place_id': 'ChIJV1sBRiN8j4ARX-P2zTC5MFQ',
+    'rating': 4,
+    'user_ratings_total': 69
+  },
+  {
+    'business_status': 'OPERATIONAL',
+    'formatted_address': '5997 Mission St, Daly City, CA 94014, USA',
+    'formatted_phone_number': '(415) 337-8780',
+    'geometry': {
+      'location': {
+        'lat': 37.7079711,
+        'lng': -122.4547101
+      }
+    },
+    'name': 'La perla de Oriente Restaurant',
+    'opening_hours': {
+      'open_now': True,
+      'periods': [
+        {
+          'close': {
+            'day': 0,
+            'time': '2200'
+          },
+          'open': {
+            'day': 0,
+            'time': '0900'
+          }
+        },
+        {
+          'close': {
+            'day': 1,
+            'time': '2200'
+          },
+          'open': {
+            'day': 1,
+            'time': '1000'
+          }
+        },
+        {
+          'close': {
+            'day': 2,
+            'time': '2200'
+          },
+          'open': {
+            'day': 2,
+            'time': '1000'
+          }
+        },
+        {
+          'close': {
+            'day': 3,
+            'time': '2200'
+          },
+          'open': {
+            'day': 3,
+            'time': '1000'
+          }
+        },
+        {
+          'close': {
+            'day': 4,
+            'time': '2200'
+          },
+          'open': {
+            'day': 4,
+            'time': '1000'
+          }
+        },
+        {
+          'close': {
+            'day': 5,
+            'time': '2200'
+          },
+          'open': {
+            'day': 5,
+            'time': '1000'
+          }
+        },
+        {
+          'close': {
+            'day': 6,
+            'time': '2200'
+          },
+          'open': {
+            'day': 6,
+            'time': '1000'
+          }
+        }
+      ],
+      'weekday_text': [
+        'Monday: 10:00 AM – 10:00 PM',
+        'Tuesday: 10:00 AM – 10:00 PM',
+        'Wednesday: 10:00 AM – 10:00 PM',
+        'Thursday: 10:00 AM – 10:00 PM',
+        'Friday: 10:00 AM – 10:00 PM',
+        'Saturday: 10:00 AM – 10:00 PM',
+        'Sunday: 9:00 AM – 10:00 PM'
+      ]
+    },
+    'place_id': 'ChIJz_PeLrd9j4ARLa3eQTDHvOY',
+    'rating': 4.4,
+    'user_ratings_total': 56,
+    'website': 'https://la-perla-de-oriente-restaurant.negocio.site/?utm_source=gmb&utm_medium=referral'
+  },
+  {
+    'business_status': 'OPERATIONAL',
+    'formatted_address': '6127 Mission St, Daly City, CA 94014, USA',
+    'formatted_phone_number': '(415) 333-3887',
+    'geometry': {
+      'location': {
+        'lat': 37.7070869,
+        'lng': -122.4572835
+      }
+    },
+    'name': 'Little Hunan Restaurant',
+    'opening_hours': {
+      'open_now': True,
+      'periods': [
+        {
+          'close': {
+            'day': 0,
+            'time': '2100'
+          },
+          'open': {
+            'day': 0,
+            'time': '1100'
+          }
+        },
+        {
+          'close': {
+            'day': 1,
+            'time': '2100'
+          },
+          'open': {
+            'day': 1,
+            'time': '1100'
+          }
+        },
+        {
+          'close': {
+            'day': 2,
+            'time': '2100'
+          },
+          'open': {
+            'day': 2,
+            'time': '1100'
+          }
+        },
+        {
+          'close': {
+            'day': 4,
+            'time': '2100'
+          },
+          'open': {
+            'day': 4,
+            'time': '1100'
+          }
+        },
+        {
+          'close': {
+            'day': 5,
+            'time': '2100'
+          },
+          'open': {
+            'day': 5,
+            'time': '1100'
+          }
+        },
+        {
+          'close': {
+            'day': 6,
+            'time': '2100'
+          },
+          'open': {
+            'day': 6,
+            'time': '1100'
+          }
+        }
+      ],
+      'weekday_text': [
+        'Monday: 11:00 AM – 9:00 PM',
+        'Tuesday: 11:00 AM – 9:00 PM',
+        'Wednesday: Closed',
+        'Thursday: 11:00 AM – 9:00 PM',
+        'Friday: 11:00 AM – 9:00 PM',
+        'Saturday: 11:00 AM – 9:00 PM',
+        'Sunday: 11:00 AM – 9:00 PM'
+      ]
+    },
+    'place_id': 'ChIJV1sBRiN8j4ARX-P2zTC5MFQ',
+    'rating': 4,
+    'user_ratings_total': 69
+  }
+]
