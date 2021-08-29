@@ -23,13 +23,13 @@ class Crawler:
     def get_one_type_of_places(self, place_type):
         city_points = CityPoints(self.city)
         mysqlcon = PlacesModel()
-
         for city_point in city_points.generate_points(self.city_points_radius):
             place = Place(city_point)
+            print(place_type, city_point)
             place.search_place_nearby(self.search_nearby_radius, place_type, page_token="")
             for place_details in place.place_details_list:
-                self.all_places_details.append(place_details)
                 print(place_details)
+                self.all_places_details.append(place_details)
                 data = {}
                 data["city"] = self.city
                 data["type"] = place_type
@@ -46,10 +46,10 @@ class Crawler:
                 data["website"] = place_details.get("website") or ""
                 data["opening_hours"] = json.dumps(place_details.get("opening_hours") or {})
                 mysqlcon.write(data)
-                return
         mysqlcon.done()
 
 
 # Example
-# crawler = Crawler("San Francisco", 200, ["amusement_park","aquarium","bakery","book_store","museum","park","shopping_mall","tourist_attraction","university"])
+# crawler = Crawler("San Francisco", 200, ["amusement_park","aquarium","art_gallery","bakery","book_store","museum","park",""tourist_attraction"])
+# crawler = Crawler("San Francisco", 200, ["amusement_park","aquarium","art_gallery","bakery","book_store","museum","park","shopping_mall","tourist_attraction","university"])
 # crawler.get_all_types_of_places()
