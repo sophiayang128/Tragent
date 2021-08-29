@@ -1,7 +1,7 @@
 import mysql.connector
 
 
-class Places:
+class PlacesModel:
     def __init__(self):
         self.cnx = mysql.connector.connect(user='tragent-db', password='eded....', host='34.136.75.172', database='tragent')
 
