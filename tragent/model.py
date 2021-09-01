@@ -29,6 +29,30 @@ class PlacesModel:
         cursor.execute(add_employee, data_employee)
         self.cnx.commit()
         cursor.close()
+
+    def find_place(self,place_id):
+        cursor = self.cnx.cursor(buffered=True)
+        find_place_query = ("SELECT city, type, name, address, lat, lng, business_status, phone_number, google_map_place_id, rating, ratings_total, website, opening_hours FROM places WHERE google_map_place_id = %s")
+        cursor.execute(find_place_query,(place_id,))
+        self.cnx.commit()
+        for (city, type, name, address, lat, lng, business_status, phone_number, google_map_place_id, rating, ratings_total, website, opening_hours) in cursor:
+            data = {}
+            data["city"] = city
+            data["type"] = type
+            data["name"] = name
+            data["address"] = address
+            data["lat"] = lat
+            data["lng"] = lng
+            data["business_status"] = business_status
+            data["phone_number"] = phone_number
+            data["google_map_place_id"] = google_map_place_id            
+            data["rating"] = rating
+            data["ratings_total"] = ratings_total
+            data["website"] = website
+            data["opening_hours"] = opening_hours
+        cursor.close()
+        return data
+
     def done(self):
         self.cnx.close()
 
@@ -47,8 +71,9 @@ class PlacesModel:
 # data["ratings_total"] = 500
 # data["website"] = "www.google.com"
 # data["opening_hours"] = '{}'
-# mysqlcon = Places()
-# mysqlcon.write(data)
+# mysqlcon = PlacesModel()
+# data = mysqlcon.find_place("ChIJ95syPVV-j4AReUabNI0D0hc")
+# print(data)
 # mysqlcon.done()
 
 
