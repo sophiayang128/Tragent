@@ -19,8 +19,6 @@ class Crawler:
     def get_all_types_of_places(self):
         for place_type in self.place_types:
             self.get_one_type_of_places(place_type)
-        }
-            
 
     def get_one_type_of_places(self, place_type):
         searched_place_ids = {}
@@ -65,5 +63,7 @@ class Crawler:
 
 # Example
 # crawler = Crawler("San Francisco", 200, ["amusement_park","aquarium","art_gallery","bakery","book_store","museum","park",""tourist_attraction"])
-crawler = Crawler("San Francisco", 1500, ["bar"])
+crawler = Crawler("San Francisco", 1500, ["cafe","city_hall","restaurant","zoo"])
 crawler.get_all_types_of_places()
+
+
