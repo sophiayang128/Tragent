@@ -38,10 +38,10 @@ class Place:
             return
 
 # Example
-# location = (37.7896451, -122.3897222)
-# p1 = Place(location)
-# p1.search_place_nearby(200, "restaurant", "")
-# print(p1.place_details_list)
+location = (37.80865824324315, -122.40926971224243)
+p1 = Place(location)
+p1.search_place_nearby(1500, "aquarium", "")
+print(p1.place_details_list)
 
 
 # 1. Lat,lon, type -> []
